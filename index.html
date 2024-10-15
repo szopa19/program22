@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubezpieczenia Samochodowe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="loginSection">
+        <h1>Logowanie</h1>
+        <input type="password" id="password" placeholder="Wprowadź hasło">
+        <button id="loginButton">Zaloguj się</button>
+    </div>
+
+    <div class="container" id="appSection" style="display: none;">
+        <h1>Ubezpieczenia Samochodowe</h1>
+        <div class="input-section">
+            <input type="text" id="carName" placeholder="Nazwa samochodu">
+            <input type="date" id="insuranceEndDate">
+            <button id="addCarButton">Dodaj Samochód</button>
+        </div>
+        <div id="carList" class="car-list">
+            <h2>Lista samochodów:</h2>
+            <ul id="cars"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

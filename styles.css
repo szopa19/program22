@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #00008B;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4682B4;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a9bd8;
+}
+
+.car-list {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.car-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.car-list li {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.car-list li.green {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.car-list li.orange {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.car-list li.red {
+    background-color: #f8d7da;
+    color: #721c24;
+}
